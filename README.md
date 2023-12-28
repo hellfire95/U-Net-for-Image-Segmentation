@@ -1,12 +1,12 @@
 #  U-Net for Image Segmentation
 
 ## Overview
-This notebook illustrates how to build a [U-Net](https://arxiv.org/abs/1505.04597) for semantic image segmentation. U-Net is a fully convolutional network that uses skip connections from the encoder to the decoder. This allows the model to capture both fine-grained details and high-level context. At the end of this lab, you will be able to use the U-Net to output segmentation masks that show which pixels of an input image belong to the background, foreground, and outline.
+This notebook illustrates how to build a [U-Net](https://arxiv.org/abs/1505.04597) for semantic image segmentation. U-Net is a fully convolutional network that uses skip connections from the encoder to the decoder. This allows the model to capture both fine-grained details and high-level context. In this lab, we will be able to use the U-Net to output segmentation masks that show which pixels of an input image belong to the background, foreground, and outline.
 
 ![Sample Output](https://github.com/hellfire95/U-Net-for-Image-Segmentation/blob/main/u-net_prediction.png?raw=true)
 
 ## Dataset
-You will be training the model on the Oxford Pets - IIT dataset, which contains pet images and their associated segmentation masks. For this lab, you will only use the images and segmentation masks. The dataset is included in TensorFlow Datasets and can be easily downloaded.
+We will be training the model on the Oxford Pets - IIT dataset, which contains pet images and their associated segmentation masks. For this lab, you will only use the images and segmentation masks. The dataset is included in TensorFlow Datasets and can be easily downloaded.
 
 ## Dataset Preparation
 The dataset is prepared by performing the following steps:
